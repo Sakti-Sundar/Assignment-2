@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker fastapi-hello
-      run: docker build -t saktisundar2009/fastapi-hello . ; docker login -u saktisundar31 ; docker build -t saktisundar2009/fastapi-hello . ;
+      run: docker build -t saktisundar2009/fastapi-hello . ; docker login -u saktisundar31 -p Lucky555$ ; docker build -t saktisundar2009/fastapi-hello . ;
